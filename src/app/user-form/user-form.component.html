@@ -1,0 +1,29 @@
+<div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px;">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <!-- First Row -->
+            <div>
+                <label for="first-name">Name: </label>
+                <input id="first-name" type="text" formControlName="name" />
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" type="text" formControlName="email" />
+            </div>
+            
+            <!-- Second Row -->
+            <div>
+                <label for="username">Username: </label>
+                <input id="username" type="text" formControlName="username" />
+            </div>
+            <div>
+                <label for="phone">Phone: </label>
+                <input id="phone" type="text" formControlName="phone" />
+            </div>
+        </div>
+
+        <div style="margin-top: 20px; text-align: right;">
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</div>

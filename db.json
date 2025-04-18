@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "username": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "username": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 3,
+      "name": "Mike",
+      "username": "Johnson",
+      "email": "mike.johnson@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 4,
+      "name": "",
+      "username": "",
+      "email": "",
+      "phone": "123-456-7890"
+
+    },
+    {
+      "id": 5,
+      "name": "Bjoni Merkuri",
+      "username": "bjmerkuri",
+      "email": "Bjoni.Merkuri@eng.it",
+      "phone": "123-456-7890"
+
+    }
+  ]
+}
